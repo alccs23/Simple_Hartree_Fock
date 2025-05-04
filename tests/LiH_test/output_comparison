@@ -1,0 +1,15 @@
+Iter 1: E = -11.50421923, ΔE = 1.15e+01
+Iter 2: E = -7.55751364, ΔE = 3.95e+00
+Iter 3: E = -7.66005193, ΔE = 1.03e-01
+Iter 4: E = -7.66552884, ΔE = 5.48e-03
+Iter 5: E = -7.66584820, ΔE = 3.19e-04
+Iter 6: E = -7.66586695, ΔE = 1.88e-05
+Iter 7: E = -7.66586805, ΔE = 1.10e-06
+Iter 8: E = -7.66586812, ΔE = 6.43e-08
+SCF converged in 8 iterations with ΔE = 6.43e-08
+Final Energy : -7.665868116507
+ Hartrees
+
+
+PySCF outputs a ground state energy (GSE) of -7.8620238601 Hartrees, which is within the expected range of my own SCF final energy.
+This difference likely occurs because their calculations include more comprehensive orbital information, particularly p-orbitals.

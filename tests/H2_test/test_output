@@ -1,0 +1,8 @@
+Iter 1: E = -1.79130866, ΔE = 1.79e+00
+Iter 2: E = -1.11671427, ΔE = 6.75e-01
+Iter 3: E = -1.11671427, ΔE = 4.44e-16
+SCF converged in 3 iterations with ΔE = 4.44e-16
+Final Energy : -1.116714274838
+ Hartrees
+
+Szabo and Ostlund have their calculation at about: -1.1167 Hartrees. Therefore, the Code is in agreement quite well.
