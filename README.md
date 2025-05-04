@@ -62,6 +62,7 @@ print(f"SCF converged energy: {energy:.6f} Hartree")
 ```
 
 After the scf_input.py file has been changed to reflect the calculation you want to do, just run the python file like you would any other python file and an output file will appear with the final ground state energy of your system.
+
 ---
 
 ## Input Format
@@ -87,6 +88,12 @@ To set up a custom molecule, you must define:
 
 ---
 
+References
+
+   Much of the mathematical foundation behind the integral evaluations in this code is based on:
+   Attila Szabo and Neil S. Ostlund, "Modern Quantum Chemistry: Introduction to Advanced Electronic Structure Theory," Dover Publications.
+
+---
 ## License
 
 MIT License
