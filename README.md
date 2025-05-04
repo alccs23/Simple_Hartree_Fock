@@ -61,6 +61,7 @@ energy, final_density, C_matrix = run_custom_scf(orbital_list, nat_pos, num_elec
 print(f"SCF converged energy: {energy:.6f} Hartree")
 ```
 
+After the scf_input.py file has been changed to reflect the calculation you want to do, just run the python file like you would any other python file and an output file will appear with the final ground state energy of your system.
 ---
 
 ## Input Format
