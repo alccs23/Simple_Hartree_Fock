@@ -1,7 +1,7 @@
 # input.py
 
-from .basis import *
-from .scf_run import run_scf, prepare_scf_inputs
+from basis import *
+from scf_run import run_scf, prepare_scf_inputs
 
 def run_custom_scf(orbital_list, nat_pos, num_elec, max_scf=50, conv_thr=1e-6):
     """

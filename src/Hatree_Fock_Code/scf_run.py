@@ -1,7 +1,7 @@
 import numpy as np
-from .integrals import calculate_orbital_integral, S_overlap, generate_core_hamiltonian
+from integrals import calculate_orbital_integral, S_overlap, generate_core_hamiltonian
 
-from .scf_utils import create_repulsion_matrix, create_G_matrix, create_P_matrix, compute_energy
+from scf_utils import create_repulsion_matrix, create_G_matrix, create_P_matrix, compute_energy
 
 def prepare_scf_inputs(orbital_list, nat_pos):
     """

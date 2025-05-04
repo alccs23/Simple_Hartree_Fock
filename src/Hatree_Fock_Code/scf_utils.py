@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.special import erf
 import math
-from .integrals import evaluate_repulsion_integral
+from integrals import evaluate_repulsion_integral
 
 def create_repulsion_matrix(orbital_list):
     """
