@@ -79,16 +79,6 @@ To set up a custom molecule, you must define:
 
 ---
 
-## Supported Atoms
-
-Only atoms with *s*-orbital STO-nG basis sets are supported:
-- Hydrogen (H)
-- Helium (He)
-- Lithium (Li)
-- Beryllium (Be)
-
----
-
 ## Notes
 
 - This code does **not** implement *d*- or *p*-type orbitals, open-shell systems, or post-Hartree-Fock methods.
